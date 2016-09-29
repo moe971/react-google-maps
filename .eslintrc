@@ -1,0 +1,10 @@
+{
+  "extends": "./node_modules/react-scripts/config/eslint.js",
+  "rules": {
+    // Possible Errors
+    "comma-dangle": ["error", "always-multiline"],
+    // Stylistic Issues
+    "jsx-quotes": ["error", "prefer-double"],
+    "quotes": ["error", "backtick"]
+  }
+}
